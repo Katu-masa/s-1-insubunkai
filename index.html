@@ -76,8 +76,8 @@
         }
 
         function generateProblem() {
-            let a = getRandomInt(1, 4); 
-            let b = getRandomInt(1, 4); 
+            let a = 1; 
+            let b = 1; 
             const g = getRandomInt(1, 2);
             const h = getRandomInt(1, 2);
             let c;
@@ -139,8 +139,8 @@
         function generateOptions(correct) {
             const wrongOptions = [];
             while (wrongOptions.length < 3) {
-                let a = getRandomInt(1, 4);
-                let c = getRandomInt(1, 4);
+                let a = 1;
+                let c = 1;
                 const g = getRandomInt(1, 2);
             const h = getRandomInt(1, 2);
             let b;
